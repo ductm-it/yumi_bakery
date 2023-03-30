@@ -133,7 +133,6 @@
                             @endif
 
                             {{-- <li><a href=""><span class="ti-user"></span></a></li> --}}
-                            <li class="cart__menu"><span class="ti-shopping-cart">{{ Cart::count() }}</span></li>
                             <li class="toggle__menu hidden-xs hidden-sm"><span class="ti-menu"></span></li>
                         </ul>
                     </div>

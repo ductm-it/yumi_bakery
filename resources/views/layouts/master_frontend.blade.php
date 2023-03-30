@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -45,7 +46,7 @@
         @include('frontend.components.header')
 
         <!-- Start Slider Area -->
-  
+
         <!-- Start Slider Area -->
         <!-- Start Our Product Area -->
         <section class="htc__product__area ptb--130 bg__white">
@@ -153,7 +154,7 @@
     <script src="{{ asset('js/waypoints.min.js')}}"></script>
     <!-- Main js file that contents all jQuery plugins activation. -->
     <script src="{{ asset('js/main.js')}}"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>

@@ -34,7 +34,7 @@ class AdminCategoryController extends AdminController
         $data['created_at'] = Carbon::now();
 
         $category -> update($data);
-        return redirect()->back();
+        return redirect('/api-admin/category');
     }
 
     public function store(AdminRequestCategory $request){
@@ -44,7 +44,7 @@ class AdminCategoryController extends AdminController
 
         $id = Category::insertGetId($data);
 
-        return redirect()->back();
+        return redirect('/api-admin/category');
     }
 
     public function active($id){
